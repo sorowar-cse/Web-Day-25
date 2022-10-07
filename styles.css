@@ -1,5 +1,7 @@
 /* CSS Pseudo Class  */
-
+h1 {
+    color: white;
+}
 /* unvisited link */
 a:link {
     color: red;
@@ -66,4 +68,24 @@ input:focus {
   }
   :not(p) {
     background: wheat;
+  }
+
+  p::first-letter {
+    font-size: 3rem;
+  }
+  p::first-line {
+    color: blue;
+  }
+  ::selection {
+    color: chartreuse;
+    background: grey;
+  }
+  .four input:optional {
+    background-color: darkgray;
+  }
+  p::after { 
+    content: "- Khela Hbe?";
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
   }
