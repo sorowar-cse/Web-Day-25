@@ -41,22 +41,4 @@ a:active {
     border: 5px dotted darkcyan;
 }
 
-.two {
-    font: 1.5em sans-serif;
-}
-
-p {
-    display: none;
-}
-
-.two:hover p {
-    display: block;
-    color: #fff;
-    background: yellowgreen;
-}
-
-h1:first-child {
-    font-size: 2rem;
-    color: bisque;
-    background: red;
-}
+/* code for day-25 starts here  */
